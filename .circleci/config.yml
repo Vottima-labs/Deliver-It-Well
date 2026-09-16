@@ -1,8 +1,8 @@
 version: 2.1
-    jobs:
-      build:
-        docker:
-          - image: cimg/node:18.11
+jobs:
+  build:
+    docker:
+      - image: cimg/node:18.11
         steps:
           - checkout
           - run:
